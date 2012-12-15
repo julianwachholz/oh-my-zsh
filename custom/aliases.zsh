@@ -6,6 +6,15 @@ alias ls='ls -F --group-directories-first --color=auto'
 alias ll='ls -lh'
 alias la='ls -lah'
 
+alias less='less -FRSX'
+
+alias -g ...='../..'
+alias -g ....='../../..'
+alias -g H='| head'
+alias -g T='| tail'
+alias -g L='| less'
+
+
 alias calc='bc -l <<<'
 
 function extract () {
