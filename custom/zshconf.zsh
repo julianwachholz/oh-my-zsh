@@ -11,6 +11,13 @@ unsetopt beep
 setopt no_beep
 setopt no_case_glob numeric_glob_sort extended_glob
 
+# no completions for uninstalled commands
+zstyle ':completion:*:functions' ignored-patterns '_*'
+
+# kill completion
+zstyle ':completion:*:*:kill:*' menu yes select
+zstyle ':completion:*:kill:*'   force-list always
+
 # key bindings
 bindkey -e
 typeset -A key
