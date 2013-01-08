@@ -16,7 +16,7 @@ fi
 
 local return_code="%(?..${C_RED}%? ↵${C_RESET})"
 
-PROMPT='${C_BLUE}%~ ${C_RESET}$(git_prompt_info)${C_USER}%(!.#.»)${C_RESET} '
+PROMPT='${C_BLUE}@%m${C_RESET} ${C_WHITE}%~ ${C_RESET}$(git_prompt_info)${C_USER}%(!.#.»)${C_RESET} '
 PROMPT2='${C_BLUE}↳ ${C_RESET}'
 RPS1='${return_code}'
 
