@@ -14,6 +14,7 @@ alias -g H='| head'
 alias -g T='| tail'
 alias -g L='| less'
 
+alias shoot="scrot -s /tmp/shot.png -e 'imgurbash /tmp/shot.png && rm /tmp/shot.png'"
 
 alias calc='bc -l <<<'
 
