@@ -16,7 +16,7 @@ fi
 
 local return_code="%(?..${C_RED}%? ↵${C_RESET})"
 
-PROMPT='${C_BLUE}@%m${C_RESET} ${C_WHITE}%~ ${C_RESET}$(git_prompt_info)${C_USER}%(!.#.»)${C_RESET} '
+PROMPT='${C_BLUE}@%m${C_RESET} ${C_WHITE}%~ ${C_RESET}$(git_prompt_info)$(svn_prompt_info)${C_USER}%(!.#.»)${C_RESET} '
 PROMPT2='${C_BLUE}↳ ${C_RESET}'
 RPS1='${return_code}'
 
@@ -24,3 +24,8 @@ ZSH_THEME_GIT_PROMPT_PREFIX="${C_CYAN}"
 ZSH_THEME_GIT_PROMPT_SUFFIX="${C_RESET} "
 ZSH_THEME_GIT_PROMPT_DIRTY="${CB_RED}★"
 ZSH_THEME_GIT_PROMPT_CLEAN=""
+
+ZSH_THEME_SVN_PROMPT_PREFIX="${C_CYAN}"
+ZSH_THEME_SVN_PROMPT_SUFFIX="${C_RESET}"
+ZSH_THEME_SVN_PROMPT_DIRTY="${CB_RED}★"
+ZSH_THEME_SVN_PROMPT_CLEAN=""
