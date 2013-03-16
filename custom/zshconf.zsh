@@ -57,6 +57,9 @@ export BROWSER=google-chrome
 export XTERM=urxvt
 eval `dircolors -b "${HOME}/.bin/dircolors"`
 
+# python development
+export PROJECT_HOME=~/Projects
+
 # MANPAGES with color
 export LESS_TERMCAP_md=$'\E[01;31m'   # begin bold
 export LESS_TERMCAP_me=$'\E[0m'       # end mode
