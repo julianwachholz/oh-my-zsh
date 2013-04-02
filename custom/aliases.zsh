@@ -2,6 +2,7 @@
 # my aliases
 #
 
+alias c='clear'
 alias ls='ls -F --group-directories-first --color=auto'
 alias ll='ls -lh'
 alias la='ls -lah'
