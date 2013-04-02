@@ -16,6 +16,8 @@ alias -g L='| less'
 
 alias shoot="scrot -s /tmp/shot.png -e 'imgurbash /tmp/shot.png && rm /tmp/shot.png'"
 
+alias dj='django-admin.py'
+
 alias calc='bc -l <<<'
 
 function extract () {
