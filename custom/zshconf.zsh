@@ -53,7 +53,7 @@ bindkey "^[s" insert-sudo
 # ENVIRONMENT
 export PAGER=less
 export EDITOR=nano
-export BROWSER=google-chrome
+export BROWSER=luakit
 export XTERM=urxvt
 eval `dircolors -b "${HOME}/.bin/dircolors"`
 
