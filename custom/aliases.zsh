@@ -2,6 +2,7 @@
 # my aliases
 #
 
+alias c='clear'
 alias ls='ls -F --group-directories-first --color=auto'
 alias ll='ls -lh'
 alias la='ls -lah'
@@ -15,6 +16,8 @@ alias -g T='| tail'
 alias -g L='| less'
 
 alias shoot="scrot -s /tmp/shot.png -e 'imgurbash /tmp/shot.png && rm /tmp/shot.png'"
+
+alias dj='django-admin.py'
 
 alias calc='bc -l <<<'
 
